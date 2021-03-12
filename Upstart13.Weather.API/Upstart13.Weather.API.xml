@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Upstart13.Weather.API</name>
+    </assembly>
+    <members>
+        <member name="M:Upstart13.Weather.API.Controllers.ForecastController.GetAsync(System.String)">
+            <summary>
+            Gets Next 7 days weather information about an specific US Address
+            </summary>
+            <param name="address">An US Valid Address</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
