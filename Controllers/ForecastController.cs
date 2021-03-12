@@ -24,6 +24,11 @@ namespace Upstart13.Weather.API.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Gets Next 7 days weather information about an specific US Address
+        /// </summary>
+        /// <param name="address">An US Valid Address</param>
+        /// <returns></returns>
         [HttpGet]
         [Route("/Forecast/{address}")]
         public async Task<IActionResult> GetAsync(string address)
